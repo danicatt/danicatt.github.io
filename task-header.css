@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;	
+}
+
+/* Navbar */
+
+nav {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width:100%;
+	height: 65px;
+	background-color: rgb(255,255,255);
+	text-decoration: none;
+	}
+
+.firstnav {
+	float: right;
+	background-color: rgb(110, 230, 230);
+	}
+
+.infobar {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.infobar a{
+	display: block;
+	flex: flex-start;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	}
+	
+.social a{
+	display: block;
+	float: right;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	}
+	
+/* Header section (Main image, name & blurb)*/
+	
+.mainintro {
+	width: 100%;
+	height:600px;
+	background-image: url(soap-bubble.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	}
+
+.mainintro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	
+.mainintro {
+	color:white;
+}
+	
+
+
+	
+
+
