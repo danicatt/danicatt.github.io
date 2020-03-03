@@ -5,7 +5,7 @@
 body {
 	margin: 0 auto;
 	font-size: 62.5%;
-	}
+}
 
 /* Navbar */
 
@@ -17,12 +17,12 @@ body {
 	height: 75px;
 	text-decoration: none;
 	background-color: rgb(191, 217, 218);
-	}
+}
 
 .infobar {
 	display: flex;
 	justify-content: space-around;
-	}
+}
 
 .infobar a {
 	display: block;
@@ -36,7 +36,7 @@ body {
 	font-family: verdana;
 	font-size: 1rem;
 	font-weight: bold;
-	}
+}
 	
 .social a {
 	display: block;
@@ -45,13 +45,13 @@ body {
 	padding-right: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
-	}
+}
 	
 .socialicons {
 	width: 35px;
 	height: 35px;
 	background-color: rgb(191, 217, 218);
-	}
+}
 
 /* Header section (Main image, name & blurb)*/
 	
@@ -66,18 +66,18 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	}
+}
 	
 .mainintro {
 	color: rgb(0,0,0);
 	font-family: helvetica;
 	font-size: 1.4rem;
-	}
+}
 
 @media only screen and (max-width:600px) {
 	html {
 		 width:100%;}
-	 	 }
+}
 	
 @media only screen and (max-width:600px) {
 	.firstnav {
@@ -85,20 +85,20 @@ body {
 		flex-direction: column;
 		align-items: center;
 		padding: 0;
-		}
+}
 	
 	.infobar {
 		margin-top: 15%;
-		}
+}
 		
 	.social {
 		background-color: rgb(191, 217, 218);
-		}
+}
 			
 	.infobar a {
 		text-align: center;
-		}
-		}
+	}
+}
 		
 /* About Me Section */
 		
@@ -110,14 +110,14 @@ body {
 	height: 300px;
 	margin: 0;
 	background-color: rgb(130, 157, 178);
-	}
+}
 
 .aboutme h2 {
 	margin: 2%;
 	margin-left: 715px;
 	font-size: 1.4rem;
 	font-family: verdana;
-	}
+}
 	
 .aboutme h3 {
 	margin-left: 100px;
@@ -125,7 +125,7 @@ body {
 	text-align: center;
 	font-size: 1rem;
 	font-family: verdana;
-	}
+}
 	
 .aboutmepic {
 	max-width: 200px;
