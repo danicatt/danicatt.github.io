@@ -89,11 +89,15 @@ body {
 }
 	
 	.infobar {
-		margin-top: 15%;
+		margin-top: 20%;
 }
 		
 	.social {
-		background-color: #a4b6c0);
+		background-color: #a4b6c0;
+		border-left: 4px solid rgb(87, 118, 128);
+		border-bottom: 4px solid rgb(87, 118, 128);
+		border-right: 4px solid rgb(87, 118, 128);
+		border-top: 4px solid rgb(87, 118, 128);
 }
 			
 	.infobar a {
@@ -108,7 +112,6 @@ body {
 	align-items:row;
 	border-top: 4px solid rgb(87, 118, 128);
 	width: 100%;
-	height: 300px;
 	margin: 0;
 	background-color: #a7babe;
 }
@@ -129,11 +132,13 @@ body {
 }
 	
 .aboutmepic {
+	display: block;
 	max-width: 200px;
 	max-height: 200px;
 	margin-left: 40%;
 	border-radius: 50%;
-	margin-top: 20%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 /* Filler */
