@@ -1,5 +1,8 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 * {
-	box-sizing: border-box;	
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;	
 }
 
 body {
@@ -16,8 +19,15 @@ body {
 
 .firstnav {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	width: 100%;
 	height: 75px;
 	text-decoration: none;
@@ -27,12 +37,18 @@ body {
 
 .infobar {
 	display: flex;
-	justify-content: space-around;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 
 .infobar a {
 	display: block;
-	flex: flex-start;
+	-webkit-box-flex: flex-start;
+	    -ms-flex: flex-start;
+	        flex: flex-start;
 	text-decoration: none;
 	color: rgb(0, 0, 0);
 	padding-top: 20px;
@@ -69,8 +85,15 @@ body {
 	background-position: center;
 	background-size: cover;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	text-align: center;
 }
 	
@@ -88,8 +111,16 @@ body {
 @media only screen and (max-width:600px) {
 	.firstnav {
 		display: flex;
-		flex-direction: column;
-		align-items: center;
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:-webkit-flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		padding: 0;
 }
 	
@@ -156,10 +187,15 @@ body {
 
 /* Project Section */
 
+.imgcontainer {
+	max-width: 50%;
+	margin: 24px auto 30px auto;	
+}
+
 .projectcontainer {
 	border-top: 4px solid rgb(87, 118, 128);
 	width: 100%;
-	padding-bottom: 10%;
+	padding-bottom: 12%;
 	margin-top: 9%;
 	background-color: #a7babe;
 }
@@ -173,22 +209,29 @@ body {
 
 .allprojects {
 	display: flex;
-	justify-content: flex-start;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 
 .projectimage {
+	width: 100%;
 	border-radius: 50%;
-	border: 1px solid rgb(0,0,0);
-	max-width: 50%;
-	margin-left: 20%;
-	margin-bottom: 24px;	
+	border: 1px solid rgb(0,0,0);	
+}
+
+.project {
+	width: 100%;
+	text-align: center;
 }
 
 .project a {
-	margin-left: 22%;
-	margin-right: -15%;
+	margin: 5%;
 	padding: 10px;
 	margin-top: 0;
 	width: 100%;
@@ -203,8 +246,15 @@ body {
 @media only screen and (max-width: 850px) {
 	.allprojects {
 		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:-webkit-flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 		margin-left: 19%;
 	}
 }	
@@ -246,9 +296,7 @@ body {
 	margin-left: 90%;
 }
 
-
-
-
+/* End */
 
 
 
