@@ -16,6 +16,10 @@ body {
 
 .firstnav {
 	display: flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
 	flex-direction: row;
 	justify-content: space-around;
 	width: 100%;
@@ -27,6 +31,10 @@ body {
 
 .infobar {
 	display: flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
 	justify-content: space-around;
 }
 
@@ -69,6 +77,10 @@ body {
 	background-position: center;
 	background-size: cover;
 	display: flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -88,6 +100,10 @@ body {
 @media only screen and (max-width:600px) {
 	.firstnav {
 		display: flex;
+		display:-webkit-box;
+		display:-moz-box;
+		display:-ms-flexbox;
+		display:-webkit-flex;
 		flex-direction: column;
 		align-items: center;
 		padding: 0;
@@ -159,7 +175,7 @@ body {
 .projectcontainer {
 	border-top: 4px solid rgb(87, 118, 128);
 	width: 100%;
-	padding-bottom: 10%;
+	padding-bottom: 12%;
 	margin-top: 9%;
 	background-color: #a7babe;
 }
@@ -173,6 +189,10 @@ body {
 
 .allprojects {
 	display: flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
 	justify-content: flex-start;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -203,6 +223,10 @@ body {
 @media only screen and (max-width: 850px) {
 	.allprojects {
 		display: flex;
+		display:-webkit-box;
+		display:-moz-box;
+		display:-ms-flexbox;
+		display:-webkit-flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		margin-left: 19%;
@@ -246,8 +270,7 @@ body {
 	margin-left: 90%;
 }
 
-
-
+/* End */
 
 
 
